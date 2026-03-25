@@ -5,7 +5,7 @@
 
 const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
                  ? 'http://localhost:5005' 
-                 : 'https://midiquery-api.onrender.com'; // Change this once you have your Render URL
+                 : 'https://midiquery.onrender.com'; // Your actual Render URL
 
 // ── STATE ──
 let history = [];
